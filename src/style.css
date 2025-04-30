@@ -68,3 +68,16 @@ footer{
     justify-content: space-evenly;
     background-color: #1F2937;
 }
+
+.color-img{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-wrap: no-wrap;
+
+}
+
+.color-img > img{
+    min-width: 7rem;
+    height: 100%;
+}
