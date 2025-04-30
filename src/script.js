@@ -1,4 +1,4 @@
-let hex
+let hex=document.getElementById("color").value.slice(1);
 
 document.querySelector("#color").addEventListener("input", (e) => {
     hex=e.target.value.slice(1);
