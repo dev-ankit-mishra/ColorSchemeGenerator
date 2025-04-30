@@ -51,6 +51,7 @@ form > button{
 form > select{
     width: 312px;
     height: 2rem;
+    padding: 0.5rem;
     border-radius: 0.2rem;
     background-color: #1F293A;
     color: #D5D4D8;
