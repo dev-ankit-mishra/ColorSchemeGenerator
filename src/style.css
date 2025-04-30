@@ -68,7 +68,7 @@ footer{
     width:100%;
     height: 4rem;
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
     background-color: #1F2937;
@@ -78,7 +78,7 @@ footer{
     width:100%;
     height:100%;
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
 
 }
 
