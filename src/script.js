@@ -17,12 +17,18 @@ document.querySelector("#generate").addEventListener("click", (e) => {
         .then(data => {
             console.log(data);
             const container=document.querySelector(".color-img")
+            const footer=document.querySelector(".footer")
             container.innerHTML =``
+            footer.innerHTML =``
             for(let i=0;i<5;i++){
                 container.innerHTML +=`
                     <img src="${data.colors[i].image.bare}" alt="color-img"/>
                 `
+                footer.innerHTML +=`
+                    <span>${data.colors[i].hex.value}<span>
+                `
             }
+
 
         })
 })

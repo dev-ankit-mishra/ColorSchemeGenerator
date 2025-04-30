@@ -9,6 +9,7 @@ body{
     padding:0;
     box-sizing: border-box;
     height:100vh;
+    font-family: Inter, sans-serif;
 }
 
 main{
@@ -80,4 +81,12 @@ footer{
 .color-img > img{
     min-width: 7rem;
     height: 100%;
+}
+
+footer > span{
+
+    color: #D5D4D8;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
